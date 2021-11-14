@@ -52,6 +52,7 @@ export default function Movies() {
       sort: '-releaseDate',
    });
    const [drawer, setDrawer] = useState(false);
+
    const classes = useStyles();
 
    useEffect(() => {
@@ -65,9 +66,8 @@ export default function Movies() {
             console.error(error);
          }
       })();
+      // eslint-disable-next-line react-hooks/exhaustive-deps
    }, []);
-
-   useEffect(() => getFilteredMovies(state.queryObj), [state.sort]);
 
    const getFilteredMovies = queryObj => {
       setState(prevState => ({
@@ -119,6 +119,9 @@ export default function Movies() {
          }
       })();
    };
+
+   // eslint-disable-next-line react-hooks/exhaustive-deps
+   useEffect(() => getFilteredMovies(state.queryObj), [state.sort]);
 
    return (
       <>

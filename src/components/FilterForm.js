@@ -26,7 +26,8 @@ export default function FilterForm({ getFilteredMovies }) {
 
    useEffect(() => {
       getFilteredMovies(state);
-   }, [state, getFilteredMovies]);
+      // eslint-disable-next-line react-hooks/exhaustive-deps
+   }, [state]);
 
    return (
       <form onChange={handleFormInputs}>
