@@ -2,8 +2,6 @@ import { styled } from '@mui/system';
 import { alpha } from '@mui/system';
 import { InputBase } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
-import { Paper } from '@mui/material';
-// import { FixedSizeList } from '@mui/material';
 import { List, ListItem, ListItemButton, ListItemText } from '@mui/material';
 import axios from 'axios';
 import { useState } from 'react';

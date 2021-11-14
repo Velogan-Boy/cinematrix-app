@@ -7,7 +7,6 @@ import MainFooter from '../components/MainFooter';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import CircularProgress from '@mui/material/CircularProgress';
-import Modal from '@mui/material/Modal';
 import { Box } from '@mui/system';
 
 export default function Home() {

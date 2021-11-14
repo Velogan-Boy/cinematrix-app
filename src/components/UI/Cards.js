@@ -8,18 +8,12 @@ import {
    Button,
    Chip,
 } from '@mui/material';
-import img1 from '../../assets/slide1-img.jpg';
 import { makeStyles } from '@mui/styles';
 import PlayArrowOutlinedIcon from '@mui/icons-material/PlayArrowOutlined';
-import TheatersRoundedIcon from '@mui/icons-material/TheatersRounded';
 import Stack from '@mui/material/Stack';
-import ConfirmationNumberIcon from '@mui/icons-material/ConfirmationNumber';
 import ConfirmationNumberOutlinedIcon from '@mui/icons-material/ConfirmationNumberOutlined';
 import PlayArrowRoundedIcon from '@mui/icons-material/PlayArrowRounded';
-import LocalMoviesIcon from '@mui/icons-material/LocalMovies';
 import WeekendIconOutlined from '@mui/icons-material/WeekendOutlined';
-import theme from '../../theme';
-
 import { styled } from '@mui/system';
 import { Link } from 'react-router-dom';
 

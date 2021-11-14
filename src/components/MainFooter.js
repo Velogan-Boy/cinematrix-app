@@ -2,13 +2,9 @@ import React from 'react';
 import Footer from 'rc-footer';
 import 'rc-footer/assets/index.css'; // import 'rc-footer/asssets/index.less';
 import CopyrightOutlinedIcon from '@mui/icons-material/CopyrightOutlined';
-import FacebookIcon from '@mui/icons-material/Facebook';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-
-import logo from '../assets/Logo-Brands-CineMatrix-yellow.png';
-import { ListItemText } from '@mui/material';
 
 export default function MainFooter() {
    return (

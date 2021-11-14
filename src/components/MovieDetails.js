@@ -1,7 +1,6 @@
 import React from 'react';
 import { Box, styled } from '@mui/system';
 import { Grid, Typography } from '@mui/material';
-import img from '../assets/poster.jpg';
 import { Paper } from '@mui/material';
 import { Chip } from '@mui/material';
 import Stack from '@mui/material/Stack';

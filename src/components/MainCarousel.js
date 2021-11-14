@@ -2,7 +2,6 @@ import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import Cards from './UI/Cards';
-import { Typography } from '@mui/material';
 
 const responsive = {
    largedesktop: {

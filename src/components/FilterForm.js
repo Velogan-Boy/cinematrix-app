@@ -1,14 +1,10 @@
 import React, { useEffect } from 'react';
-import { Divider, FormControl, Grid, Typography } from '@mui/material';
+import { Divider } from '@mui/material';
 import { InputLabel } from '@mui/material';
-import { Paper } from '@mui/material';
-import CircularProgress from '@mui/material/CircularProgress';
 import RadioGroup from '@mui/material/RadioGroup';
 import { FormControlLabel } from '@mui/material';
 import { Radio } from '@mui/material';
-import { Checkbox } from '@mui/material';
 import FormLabel from '@mui/material/FormLabel';
-import StarIcon from '@mui/icons-material/Star';
 
 //////////////////////////////////////////////////////
 
@@ -30,7 +26,7 @@ export default function FilterForm({ getFilteredMovies }) {
 
    useEffect(() => {
       getFilteredMovies(state);
-   }, [state]);
+   }, [state, getFilteredMovies]);
 
    return (
       <form onChange={handleFormInputs}>
